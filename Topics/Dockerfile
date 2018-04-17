@@ -11,4 +11,4 @@ RUN export PATH=$PATH:/usr/lib/jva/java-8-openjdk/bin
 ADD iniciar.sh iniciar.sh
 ADD RegistroEstudiantes.jar RegistroEstudiantes.jar
 ADD crudestudiantessql.sql crudestudiantessql.sql
-CMD [*/bin/bash*,*/iniciar.sh*]
+CMD [*/bin/bash*]
